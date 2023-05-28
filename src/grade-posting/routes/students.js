@@ -1,0 +1,1 @@
+import app, { studentsController } from '../../index.js'
