@@ -1,5 +1,5 @@
-import GradesController from '../controllers/gradesController.js'
-import GradesService from '../services/gradesService.js'
+import GradesController from '../controllers/GradesController.js'
+import GradesService from '../services/GradesService.js'
 import pool from '../../pool.js'
 
 const gradesFactory = {

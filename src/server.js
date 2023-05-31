@@ -1,10 +1,13 @@
 import app from './index.js'
 import dotenv from 'dotenv'
 
-// post-grading routes
-import './grade-posting/routes/grades.js'
+// general
+import './grade-posting/routes/users.js'
 import './grade-posting/routes/students.js'
 import './grade-posting/routes/subjsects.js'
+
+// post-grading routes
+import './grade-posting/routes/grades.js'
 
 dotenv.config()
 const port = process.env.PORT || 3000
