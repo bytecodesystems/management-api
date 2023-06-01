@@ -2,7 +2,7 @@ import express from 'express'
 import cors from 'cors'
 
 // general
-import usersFactory from './grade-posting/factories/UsersFactory.js'
+import usersFactory from './grade-posting/factories/usersFactory.js'
 import studentsFactory from './grade-posting/factories/gradesFactory.js'
 import subjectsFactory from './grade-posting/factories/gradesFactory.js'
 
